@@ -1,5 +1,5 @@
 (function() {
-    function config($locationProvider, $stateProvider) {
+    function config($locationProvider, $stateProvider, $scope) {
         $locationProvider
             .html5Mode({
                 enabled: true,
@@ -11,6 +11,7 @@
                 controller: 'HomeCtrl as home',
                 templateUrl: '/templates/home.html'
             });
+       
     }
     
     angular

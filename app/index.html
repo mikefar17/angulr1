@@ -6,10 +6,8 @@
     <link rel="stylesheet" href="/styles/main.css">
 </head>
 <body>
-    <h4>Hello, World???</h4>
+    <h4> Hello Motherfucker </h4>
     <ui-view></ui-view>
-    
-    <script src="/scripts/app.js"></script>
     
     <!-- Angular -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
@@ -33,10 +31,15 @@
         projectId: "angular1-project",
         storageBucket: "angular1-project.appspot.com",
         messagingSenderId: "711359109546"
-    };
-  firebase.initializeApp(config);
-</script>
+            };
+        firebase.initializeApp(config);
+    </script>
     <!-- Application Files -->
     <script src="/scripts/app.js"></script>
+    
+    <!-- Factory Room -->
+    <script src="/scripts/services/Room.js"></script>
+    <script src="/scripts/controllers/HomeCtrl.js"></script>
+    <script src="/scripts/services/Room.js"></script>
 </body>
 </html>
